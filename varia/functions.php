@@ -358,6 +358,11 @@ function varia_mobile_nav_on_side_setup() {
 }
 
 /**
+ * Color palette related utilities
+ */
+require get_template_directory() . '/inc/color-utils.php';
+
+/**
  * SVG Icons class.
  */
 require get_template_directory() . '/classes/class-varia-svg-icons.php';
