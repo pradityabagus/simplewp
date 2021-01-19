@@ -665,6 +665,19 @@ ul.wp-block-categories,
 	border-bottom: var(--form--border-width) solid var(--form--border-color);
 }
 
+body.woocommerce #page .site-header .primary-navigation {
+	flex-basis: 50%;
+}
+
+body.woocommerce #page .site-header .woo-navigation {
+	flex-direction: row;
+	padding: 0 1.2em;
+}
+
+body.woocommerce #page .site-header .woo-navigation .woocommerce-cart-link {
+	line-height: inherit;
+}
+
 #content .wc-block-grid .wc-block-grid__product .wc-block-grid__product-onsale {
 	top: -0.5em;
 	right: -0.5em;
@@ -675,6 +688,10 @@ ul.wp-block-categories,
 }
 
 #content .wc-block-grid .wc-block-grid__product-price {
+	color: var(--global--color-foreground);
+}
+
+.single-product #page #woocommerce-wrapper div.product div.summary p.price {
 	color: var(--global--color-foreground);
 }
 

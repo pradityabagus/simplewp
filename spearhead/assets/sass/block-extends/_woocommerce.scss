@@ -1,3 +1,17 @@
+body.woocommerce #page .site-header {
+	.primary-navigation {
+		flex-basis: 50%;
+	}
+	.woo-navigation {
+		flex-direction: row;
+		padding: 0 1.2em;
+		.woocommerce-cart-link {
+			line-height: inherit;
+		}
+	}
+}
+
+
 #content .wc-block-grid{
 	.wc-block-grid__product {
 		.wc-block-grid__product-onsale {
@@ -13,4 +27,8 @@
 	.wc-block-grid__product-price {
 		color: var(--global--color-foreground);
 	}
+}
+
+.single-product #page #woocommerce-wrapper div.product div.summary p.price {
+	color: var(--global--color-foreground);
 }
